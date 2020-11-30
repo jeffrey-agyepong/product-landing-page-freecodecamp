@@ -1,0 +1,75 @@
+.button_1 {
+  height: 35px;
+  background-color: rgb(62, 62, 230);
+  border: 0;
+  padding: 0 20px 0 20px;
+  color: #ffffff;
+}
+
+form {
+  width: 100px;
+  margin: auto;
+  margin-right: 150px;
+}
+
+#form1 {
+  padding: 10px;
+  color: #ffffff;
+  background: rgb(13, 13, 58);
+
+  h3 {
+    float: left;
+    padding: 15px;
+    margin: 15px;
+  }
+
+  input[type='email'] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow-x: hidden;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+
+.item {
+  margin: 20px auto;
+  padding: 20px;
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  img {
+    height: 250px;
+    width: 350px;
+    border-radius: 45px;
+  }
+}
+
+.center {
+  display: block;
+  margin: auto;
+}
+
+@media screen and(max-width: 600px) {
+  .flex-container {
+    display: grid;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+  }
+}
